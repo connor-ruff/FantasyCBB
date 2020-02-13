@@ -1,0 +1,1 @@
+curl -sL https://www.espn.com/mens-college-basketball/boxscore?gameId=401169741 | grep -Eo -m 1 'dotson.*class="ast"'
