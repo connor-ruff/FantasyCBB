@@ -10,7 +10,7 @@ getNames() {
 
 allPlayers(){
 	while [ $# -gt 0 ] ; do
-		echo $1 " " $2
+		echo $1 $2
 		echo "$(sh playerStat.sh $1 $2 $URL)"
 		shift
 		shift
