@@ -18,4 +18,6 @@ allPlayers(){
 	done
 }
 
+
  allPlayers $(getNames) > newFile.txt
+
