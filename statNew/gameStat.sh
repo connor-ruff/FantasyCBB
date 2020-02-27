@@ -18,4 +18,4 @@ allPlayers(){
 	done
 }
 
-./allPlayers $(getNames)
+allPlayers $(getNames)
