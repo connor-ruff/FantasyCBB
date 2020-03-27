@@ -5,5 +5,6 @@
 "Testing" is a junkyard for testing scripts and processes
 
 
-Merge Test !!
+March 27: Will probably shift primary focus to Python version for now.
+See python branch(es) !!!
 
