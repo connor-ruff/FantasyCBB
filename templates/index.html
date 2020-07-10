@@ -15,15 +15,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                <h4>Teams</h4>
+                <h4 ID="teamsList">Teams</h4>
                     <ul>
-                        <li>Team Ruff</li>
-                        <li>Team Two</li>
-                        <li>Team Three</li>
-                        <li>Team Four</li>
-                        <li>Team Five</li>
-                        <li>Team Six</li>
-                        <li>Team Seven</li>
+                        <li><a href="{{ url_for('TeamPage', squadKey=0) }}">Team Ruff</a></li>
+                        <li><a href="{{ url_for('TeamPage', squadKey=1) }}">Team Beebe</a></li>
+                        <li><a href="{{ url_for('TeamPage', squadKey=2) }}">Team Pechulonis</a></li>
+                        <li><a href="{{ url_for('TeamPage', squadKey=3) }}">Team Manion</a></li>
+                        <li><a href="{{ url_for('TeamPage', squadKey=4) }}">Team Whalen</a></li>
+                        <li><a href="{{ url_for('TeamPage', squadKey=5) }}">Team Mich</a></li>
+                        <li><a href="{{ url_for('TeamPage', squadKey=6) }}">Team Edel</a></li>
                     </ul>
                 </div>
 

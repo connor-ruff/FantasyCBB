@@ -7,10 +7,10 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-team = "CMoney"
-@app.route(f'/{team}')
-def TeamPage():
-    info = SQLconnect(0)
+                           
+@app.route('/TeamPage/<int:squadKey>')
+def TeamPage(squadKey):
+    info = SQLconnect(squadKey) 
     return render_template('teamPage.html', name=info)
 
 
